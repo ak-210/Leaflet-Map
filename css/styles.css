@@ -1,0 +1,141 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1, h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: large; */
+    border-bottom: 1px solid gray;
+    width: 90%;
+    padding-bottom: 5px;
+}
+
+.text{
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bold;
+    /* padding: 15px; */
+}
+.but{
+    /* width: 30%; */
+    height: 100%;
+    /* height: auto; */
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.row{
+    border: 1px solid black;
+    border-radius: 20px;
+    line-height: 250px;
+}
+button{
+    background: transparent;
+    border: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    height: fit-content;
+}
+
+button img{
+    width: 70%;
+    padding: 5px;
+    margin: 0px;
+}
+button img:hover{
+    /* width: 65%; */
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid black;
+}
+
+.img-main{
+    margin-top: 20px;
+    width: 70%;
+    margin-bottom: 25px;
+}
+.img-main img{
+    width: 100%;
+}
+
+.active{
+    opacity: 70%;
+    filter: blur();
+}
+
+#map{
+    height: 350px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .row{
+    line-height: 200px;
+  }
+  .text{
+    line-height: 225px;
+    vertical-align: middle;
+  }
+  .img-main{
+    width: 80%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .row{
+        line-height: 150px;
+      }
+    .text{
+        line-height: 175px;
+        vertical-align: middle;
+    }
+    .img-main{
+        width: 90%;
+    }
+    h1, h2{
+        width: 98%;
+    }
+}
+/********** Extra small devices only **********/
+@media (max-width: 768px) {
+    .row{
+        line-height: 100px;
+        width: 90%;
+      }
+    .text{
+        width: 100%;
+        text-align: center;
+        line-height: 100%;
+        vertical-align: middle;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .but{
+        width: 50%;
+        /* height: ; */
+        /* width: auto; */
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+}
+
+
+
