@@ -6,7 +6,7 @@
 
 h1, h2{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Luxurious Roman', cursive;
     /* font-size: large; */
     border-bottom: 1px solid gray;
     width: 90%;
@@ -19,6 +19,7 @@ h1, h2{
     vertical-align: middle;
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Lato', sans-serif;
     /* padding: 15px; */
 }
 .but{
@@ -33,9 +34,10 @@ h1, h2{
 }
 
 .row{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     line-height: 250px;
+    margin-bottom: 25px;
 }
 button{
     background: transparent;
@@ -43,18 +45,19 @@ button{
     padding: 0px;
     vertical-align: middle;
     height: fit-content;
+    cursor: default;
 }
 
 button img{
     width: 70%;
-    padding: 5px;
+    padding: 15px;
     margin: 0px;
 }
 button img:hover{
     /* width: 65%; */
-    padding: 15px;
+    padding: 30px;
     margin: 0px;
-    border: 1px solid black;
+    cursor: pointer;
 }
 
 .img-main{
@@ -68,11 +71,12 @@ button img:hover{
 
 .active{
     opacity: 70%;
+    padding: 30px;
     filter: blur();
 }
 
 #map{
-    height: 350px;
+    height: 500px;
 }
 
 /********** Large devices only **********/
